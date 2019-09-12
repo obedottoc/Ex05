@@ -1,7 +1,7 @@
 
 /*
  * rectangle class that abstracts the shape class
- * author@
+ * author@vijaykumar
  */
 package AreaCalculator;
 

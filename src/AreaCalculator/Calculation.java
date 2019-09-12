@@ -1,11 +1,12 @@
-
+/****
 /*
+
  * Java program to calculate the area of various shapes
  * using abstract class.
  *
- * author@bhaskar karthik
+ * author@vijaykumar
  *
- * karthikbhaskar2000@gmail.com
+ * vijaykumarkaranam100@gmail.com
  */
 package AreaCalculator;
 
