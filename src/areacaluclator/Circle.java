@@ -1,3 +1,11 @@
+/*
+ * This program is to caluclate the area
+ * Developed by
+ * N.pavithra.
+ * Saveetha Engineering College
+ * npavithra1405@gmail.com
+ * 
+ */
 package areacaluclator;
 
 public class Circle extends Shape{
