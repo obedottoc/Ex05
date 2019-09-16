@@ -1,3 +1,10 @@
+/****
+ * Program for Payslip
+
+
+ * @author RAJAMANICKAM A
+ *  rajapandidevi1997@gmail.com
+ */
 package shapeclass;
 
 public class Calculation
