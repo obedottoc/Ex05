@@ -1,38 +1,56 @@
+/**
+ * To create Areacalculator
+ * 
+ */
 package Areacalculator;
-
 import java.util.Scanner;
-
 public class Calculation {
-    public static Scanner scan = new Scanner(System.in);
-    public static void main(String[] args) {
-        while (true) {
-            System.out.println("Enter the number which you want to compute the area");
-            System.out.print("(1) Triangle (2) Rectangle (3) Circle ? ");
-            switch (scan.nextInt()) {
-            case 1:
-                Triangle triangle = new Triangle();
-                System.out.print("Base: ");
-                triangle.setBase(scan.nextDouble());
-                System.out.print("Height: ");
-                triangle.setHeight(scan.nextDouble());
-                System.out.println("Area of triangle: " + triangle.getArea());
-                break;
-            case 2:
-                Rectangle rectangle = new Rectangle();System.out.print("Width: ");
-                rectangle.setWidth(scan.nextDouble());
-                System.out.print("Height: ");
-                rectangle.setHeight(scan.nextDouble());
-                System.out.println("Area of rectangle: " + rectangle.getArea());
-                break;
-            case 3:
-                Circle circle = new Circle();
-                System.out.print("Radius: ");
-                circle.setRadius(scan.nextDouble());
-                System.out.println("Area of circle: " + circle.getArea());
-                break;
-            default:
-                System.out.println("What do u mean?");
-            }
-        }
-    }
+	public static void main(String[]args) {
+		int options;
+		Scanner sc=new Scanner(System.in);
+		Circle C ;
+		C=new Circle();
+		Rectangle r;
+     r=new Rectangle();
+     Triangle t;
+     t=new Triangle();
+     while(true) {
+     
+    	 System.out.println("1.To find the area of circle:");
+    	 System.out.println("2.To find the area of rectangle:");
+    	 System.out.println("3.To find the area of the Triangle");
+    	 System.out.println("4.Exit");
+    	 System.out.println("Enter your options!!");
+    	 options=sc.nextInt();
+    	 switch(options)
+    	 {
+    	 case 1:
+    		 C.printarea();
+    		 System.out.println("-----------------");
+    		 break;
+    	 case 2:
+    		 r.printarea();
+    		 System.out.println("-------------");
+    		 break;
+    	 case 3:
+    		 t.printarea();
+    		 System.out.println("---------------");
+    		 break;
+    	 case 4:
+    		 System.out.println("Thankyou for using area calculator");
+    		 System.out.println("----------------");
+    		 break;
+    		 default:
+    			 System.out.println("please enter a valid number:");
+    			 System.out.println("-------------");
+    			 break;
+    			 
+    		 
+   	 }
+    	 
+   	}
+
+  }
 }
+
+

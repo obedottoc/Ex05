@@ -1,12 +1,13 @@
+/**
+ * package Areacalculator;
+ * @author harsha
+ *
+ */
 package Areacalculator;
-
-public abstract class Shape {
-    protected double area;
-
-    public double getArea() {
-        return area;
-    }
-
-    protected abstract void onAreaChange();
-}
+abstract class Shape
+{
+	int a,b;
 	
+abstract public void print_area();
+
+}
