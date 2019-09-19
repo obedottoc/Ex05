@@ -1,7 +1,6 @@
 /*developed by: lakshmi priya
 * lakshmipandian2103gmail.com
 */
-
 package shapecollection;
 import java.util.Scanner;
 public class rectangle extends shape{
