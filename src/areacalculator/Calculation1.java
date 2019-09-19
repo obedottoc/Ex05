@@ -1,4 +1,10 @@
- package areacalculator;
+/*****
+ * created by rohitha
+ */
+
+
+
+package areacalculator;
 
 import java.util.Scanner;
 
