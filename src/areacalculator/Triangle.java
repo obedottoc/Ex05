@@ -1,3 +1,6 @@
+/***
+ * @author nikhil
+ */
 package areacalculator;
 class Triangle extends Shape
 {

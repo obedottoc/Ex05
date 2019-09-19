@@ -1,3 +1,6 @@
+/***
+ * @author nikhil
+ */
 package areacalculator;
 
 abstract class Shape
