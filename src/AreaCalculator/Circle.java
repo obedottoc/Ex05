@@ -1,3 +1,7 @@
+/*created by Abhijith.S
+abhijithabhi524@gmail.com
+*/
+
 package AreaCalculator;
 import java.util.Scanner;
 
