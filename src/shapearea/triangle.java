@@ -3,7 +3,6 @@
  * 
  */
 package shapearea;
-
 public class triangle extends shape {
 
 	public triangle(int l, int h)
