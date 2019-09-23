@@ -1,6 +1,7 @@
 /**
- * To create Areacalculator;
- * @author harsha vardhan reddy
+ * To create Areacalculator
+;
+ * @author arohitharohi@gmail.com
  *
  */
 package Areacalculator;
