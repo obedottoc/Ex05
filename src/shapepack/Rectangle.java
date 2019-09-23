@@ -10,7 +10,7 @@ public  class Rectangle extends Shapes {
 	public Rectangle(int l,int b)
 	{
 		super.a1=l;
-		super.a1=b;
+		super.a2=b;
 		
 	}
 
@@ -18,8 +18,8 @@ public  class Rectangle extends Shapes {
 	public void printarea() {
 		double area;
 		
-		area=0.5*super.a1*super.a1;
-		System.out.println("Area of Circle is:"+area);
+		area=super.a1+super.a2;
+		System.out.println("Area of Rectangle is:"+area);
 
 	}
 

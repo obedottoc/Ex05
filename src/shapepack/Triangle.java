@@ -18,7 +18,7 @@ package shapepack;
 		public void printarea() {
 			double area;
 			
-			area=0.5*super.a1*super.a1;
+			area=0.5*super.a1*super.a2;
 			System.out.println("Area of Triangle is:"+area);
 
 		}
