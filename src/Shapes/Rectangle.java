@@ -8,8 +8,8 @@ package Shapes;
 		super.b=h;
 	}
 public void printarea() {
-	double area;
-	area=super.a*super.b;
-	System.out.println("the area of the rectange is:"+area);
+	 double area;
+	 area=super.a*super.b;
+	 System.out.println("the area of the rectange is:"+area);
  }
 }
