@@ -1,8 +1,8 @@
 package Shapes;
 
-public class Rectangle extends Shapes {
+ public class Rectangle extends Shapes {
 
-	public Rectangle(int l, int h)
+	 public Rectangle(int l, int h)
 	{
 		super.a=l;
 		super.b=h;
