@@ -2,7 +2,7 @@ package Shapes;
 
 public class Calculation1 {
 
-	public static void main(String[] args) {
+	  public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Shapes sha;
 		sha=new Rectangle(40,20);
