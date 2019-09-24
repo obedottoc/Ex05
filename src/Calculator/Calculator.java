@@ -1,3 +1,8 @@
+//*created by roopesh
+//*1roopesh3@gmail.com
+//*this program is written to design a calculator using event driven programming paradigm.decimal,scientific manipulations 
+
+
 package Calculator;
 
 import java.util.Scanner;
