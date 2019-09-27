@@ -1,3 +1,11 @@
+/**
+ * Application for AreaCalculator
+ * 
+ * developed by Mohan Raj c
+ * cvmohanraj3@gmail.com
+ * 
+ * 
+ */
 package AreaCalculator;
 
 public class Calculation
